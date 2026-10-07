@@ -1,0 +1,12 @@
+{
+  "name": "parcelas-br",
+  "version": "1.0.0",
+  "description": "Parcelamento com juros (Price e SAC), checkout em até 12x, repasse de taxa do cartão, taxa implícita e vencimentos. Zero dependências.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "keywords": ["parcelamento", "price", "sac", "juros", "checkout", "cartao", "brasil"],
+  "license": "MIT"
+}
